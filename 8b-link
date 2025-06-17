@@ -1,0 +1,12 @@
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;unistd.h&gt;
+int main(intargc, char* argv[])
+{
+  intsl = symlink(argv[1], argv[2]);
+  if (sl == 0)
+{
+   printf(&quot;Soft Link created succuessfuly&quot;);
+  }
+return 0;
+}
