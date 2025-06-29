@@ -9,7 +9,7 @@ else
     tr " " "\n" < "$1" > temp
     shift
 
-    for i in "$@"
+    for i in "$*"
     do
         tr " " "\n" < "$i" > temp1
         y=`wc -l < temp`
